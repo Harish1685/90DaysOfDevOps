@@ -11,7 +11,9 @@ Checks if your machine can reach a host and measures basic latency.
 
 ### Usage  
 
+'''bash
 ping <hostname or IP>
+'''
 
 
 ### What it shows  
@@ -27,11 +29,15 @@ Shows the path packets take across networks to reach a destination.
 ### Usage  
 Linux:
 
+'''bash
 traceroute <host>
+'''
 
 Windows:
 
+'''bash
 tracert <host>
+'''
 
 
 ### What it shows  
@@ -65,9 +71,9 @@ Which services are bound to which ports and active network activity.
 Tests APIs and web services by sending HTTP requests.
 
 ### Usage  
-
+'''bash
 curl <URL>
-
+'''
 
 ### Useful options  
 `-I` headers only  
@@ -87,8 +93,9 @@ Queries DNS servers for domain resolution.
 
 ### Usage  
 Linux:
-
+'''bash
 dig <domain>
+'''
 
 Windows/Linux:
 
@@ -101,3 +108,4 @@ DNS records, which server responded, and how a domain resolves.
 ---
 
 These commands are the basics of network troubleshooting and appear in almost every DevOps workflow.
+

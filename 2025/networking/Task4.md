@@ -11,9 +11,9 @@ Checks if your machine can reach a host and measures basic latency.
 
 ### Usage  
 
-'''bash
+```bash
 ping <hostname or IP>
-'''
+```
 
 
 ### What it shows  
@@ -29,9 +29,9 @@ Shows the path packets take across networks to reach a destination.
 ### Usage  
 Linux:
 
-'''bash
+```bash
 traceroute <host>
-'''
+```
 
 Windows:
 
@@ -108,4 +108,5 @@ DNS records, which server responded, and how a domain resolves.
 ---
 
 These commands are the basics of network troubleshooting and appear in almost every DevOps workflow.
+
 

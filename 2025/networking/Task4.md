@@ -35,9 +35,9 @@ traceroute <host>
 
 Windows:
 
-'''bash
+```bash
 tracert <host>
-'''
+```
 
 
 ### What it shows  
@@ -51,9 +51,9 @@ Each hop, where delays occur, and where routing fails.
 Displays active connections and listening ports.
 
 ### Usage  
-
+```bash
 netstat <options>
-
+```
 
 ### Useful options  
 `-a` all connections  
@@ -71,9 +71,9 @@ Which services are bound to which ports and active network activity.
 Tests APIs and web services by sending HTTP requests.
 
 ### Usage  
-'''bash
+```bash
 curl <URL>
-'''
+```
 
 ### Useful options  
 `-I` headers only  
@@ -93,9 +93,9 @@ Queries DNS servers for domain resolution.
 
 ### Usage  
 Linux:
-'''bash
+```bash
 dig <domain>
-'''
+```
 
 Windows/Linux:
 
@@ -108,5 +108,6 @@ DNS records, which server responded, and how a domain resolves.
 ---
 
 These commands are the basics of network troubleshooting and appear in almost every DevOps workflow.
+
 
 

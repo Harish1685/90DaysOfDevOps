@@ -15,6 +15,7 @@ cd ~
 mkdir devops_workspace
 touch devops_workspace/project_notes.txt
 ```
+Add content:
 
 ```bash
 echo "Linux permissions task" > devops_workspace/project_notes.txt

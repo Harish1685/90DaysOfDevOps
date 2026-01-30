@@ -1,1 +1,2 @@
 Hello, this is my Git challenge!
+Adding more details to the file.
